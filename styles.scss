@@ -1,0 +1,19 @@
+@import url("https://use.typekit.net/efa7ivj.css");
+
+$scriptStyleFont: 'dream-big-regular', cursive;
+$sansSerifFont: 'mr-eaves-xl-sans', sans-serif;
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
